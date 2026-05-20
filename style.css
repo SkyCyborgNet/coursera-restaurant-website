@@ -1,0 +1,71 @@
+/* ===== NAVBAR ===== */
+.navbar-default {
+    background-color: #d3d3d3; /* grey navbar like mockup */
+    border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+    font-size: 20px;
+}
+
+/* Hamburger bar color */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #000;
+}
+
+
+/* ===== MOBILE DROPDOWN MENU ===== */
+#mobile-menu {
+    background-color: #d3d3d3; /* same grey as navbar */
+    width: 100%;
+}
+
+/* Center menu items */
+#mobile-menu ul {
+    text-align: center;
+}
+
+/* Divider lines + centered items */
+#mobile-menu ul.nav > li {
+    border-bottom: 1px solid #aaa;
+    text-align: center;
+}
+
+#mobile-menu ul.nav > li > a {
+    color: #000;
+    font-size: 16px;
+    padding: 12px 15px;
+    text-align: center;
+    display: block;
+}
+
+#mobile-menu ul.nav > li > a:hover {
+    background-color: #bbb;
+}
+
+
+/* ===== PAGE HEADING ===== */
+h2.text-center {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+/* ===== MAIN TALL SECTION ===== */
+.main-section {
+    min-height: 1000px;
+    background-color: #d3d3d3; /* grey like mockup */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.main-section h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
